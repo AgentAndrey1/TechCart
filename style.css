@@ -1,0 +1,157 @@
+/* Centering the .strter container */
+.strter {
+    background-color:  #1a675e;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centering both horizontally and vertically */
+    width: 100%;
+    height: 100vh; /* Full height */
+    background-attachment: fixed; /* Keeps the background fixed during resizing */
+    background-position: center center; /* Ensures the background stays centered */
+    background-repeat: no-repeat; /* Prevents tiling */
+  }
+  
+  /* Container for background image */
+  .strter .div {
+    background-color:  #1a675e;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px; /* Optional: rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for text inside .text-wrapper */
+  .strter .text-wrapper {
+    position: absolute;
+    top: 525px;  /* Adjusted to position the text lower */
+    left: 50%;  /* Center text horizontally */
+    transform: translateX(-50%); /* Corrects the horizontal alignment */
+    background: linear-gradient(180deg, rgba(177, 211, 255, 1) 0%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  /* Styling for the button group */
+  .strter .group {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 560px;
+    left: 50%;  /* Center button horizontally */
+    transform: translateX(-50%); /* Adjust the button to be perfectly centered */
+    background-color: #1a675e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px; /* Optional: rounded corners for button */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for button text */
+  .strter .div-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .strter .text-wrapper-2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+  /* Optional hover effect for the button */
+  .strter .group:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* TechCart image styling */
+  .strter .techcart {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 450px;
+    background-blend-mode: darken; /* Blending the image with background */
+    background-image: url('./img/TechCart.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+  }
+/* Remove underline from anchor tag for both Sign Up text and Get Started button */
+.strter .sign-up-link,
+.strter .get-started-link {
+  text-decoration: none;
+}
+
+/* Optional: Style the "Sign Up" link to make it look consistent */
+.strter .sign-up-link .text-wrapper {
+  cursor: pointer;
+  font-size: 23px; /* Adjust the font size if needed */
+  font-weight: 700; /* Make it bold */
+  color: #000000; /* Or any color you want */
+}
+
+/* Optional: Style the "Get Started" button link */
+.strter .get-started-link .text-wrapper-2 {
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.login-container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 8px;
+    background-color:#1a675e;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: 15px;
+    border-radius: 24px;
+
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #f8fdfc;
+    text-decoration: none;
+  }
+  
